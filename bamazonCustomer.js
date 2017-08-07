@@ -53,7 +53,7 @@ function placeOrder() {
               }
             ],
             function(err, res) {
-              console.log(res.affectedRows + " products updated!\n");
+            //   console.log(res.affectedRows + " products updated!\n");
             }
           ); 
         };
